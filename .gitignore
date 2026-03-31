@@ -1,0 +1,29 @@
+# Ignore all data files (Kaggle dataset is too large for GitHub)
+data/
+*.csv
+*.json
+*.pkl
+fraud-detection-api/
+
+# Logs
+*.txt
+*.log
+consumer_out.txt
+producer_out.txt
+sink_out.txt
+report_out.txt
+load_out.txt
+inspect_output.txt
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Local system files
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+# Docker volumes
+postgres_data/
