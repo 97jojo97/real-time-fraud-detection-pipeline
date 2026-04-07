@@ -17,7 +17,7 @@ A production-grade, event-driven streaming pipeline designed to classify fraudul
 *   **Event Broker**: Apache Kafka
 *   **Data Warehouse**: PostgreSQL 15 (Alpine)
 *   **ETL Library**: Pandas, SQLAlchemy
-*   **Data Source**: 24M Record Kaggle Financial Dataset
+*   **Data Source**: local files: 13,305,915 transactions + 8,914,963 fraud labels from kaggle datasets
 
 ## 📁 Repository Structure
 
